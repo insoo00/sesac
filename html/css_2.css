@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    text-decoration: none;
+    color: green;
+}
+
+p {
+    background-color: darkgreen;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.sub {
+    font-size: 15px;
+}
+
+.text {
+    font-size: 12px;
+    background-color: aquamarine;
+}
+
+.darkTemplar {
+    color: white;
+    background: aqua;
+}
+
+p.margin {
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: 1px solid #202020;
+}
+
+input[type="password"] {
+    width: 200px;
+    border: 1px solid #202020;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: pink;
+}

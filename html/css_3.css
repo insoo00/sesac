@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 25%;
+    height: 100px;
+    background-color: red;
+}
+
+.main {
+    width: 50%;
+    height: 100px;
+    background-color: green;
+}
+
+.right {
+    width: 25%;
+    height: 100px;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 900px) {
+    .left {
+        width: 50%;
+    }
+    .main {
+        width: 50%;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .left {
+        width: 100%;
+    }
+    .main {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
